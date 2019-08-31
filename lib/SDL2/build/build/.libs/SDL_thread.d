@@ -1,0 +1,21 @@
+build/SDL_thread.lo: \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/thread/SDL_thread.c \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/thread/../SDL_internal.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/thread/../dynapi/SDL_dynapi.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/thread/../dynapi/SDL_dynapi_overrides.h \
+  include/SDL_config.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_platform.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/begin_code.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/close_code.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_assert.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_config.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_thread.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_stdinc.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_error.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_atomic.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_mutex.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/thread/SDL_thread_c.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/thread/pthread/SDL_systhread_c.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/thread/../SDL_error_c.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/thread/SDL_systhread.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_hints.h

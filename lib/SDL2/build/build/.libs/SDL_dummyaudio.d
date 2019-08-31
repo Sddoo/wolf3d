@@ -1,0 +1,23 @@
+build/SDL_dummyaudio.lo: \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/audio/dummy/SDL_dummyaudio.c \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/audio/dummy/../../SDL_internal.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/audio/dummy/../../dynapi/SDL_dynapi.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/audio/dummy/../../dynapi/SDL_dynapi_overrides.h \
+  include/SDL_config.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_platform.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/begin_code.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/close_code.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_timer.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_stdinc.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_config.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_error.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_audio.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_endian.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_mutex.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_thread.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_atomic.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/include/SDL_rwops.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/audio/dummy/../SDL_audio_c.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/audio/dummy/SDL_dummyaudio.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/audio/dummy/../SDL_sysaudio.h \
+  /Users/eloren-l/Documents/current/wolf/lib/SDL2/SDL2-src/src/audio/dummy/../../SDL_dataqueue.h
