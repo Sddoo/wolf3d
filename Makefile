@@ -5,14 +5,18 @@ SRCDIR = ./src
 INCDIR = ./include
 OBJDIR = ./obj
 
-SRC	= main.c \
+SRC	=	main.c \
+		event_loop.c \
+		rendering.c \
+		termination_event.c
 
 OBJ = $(addprefix $(OBJDIR)/,$(SRC:.c=.o))
 
 # compiler
 CC		=	gcc
 CFLAGS	=	-Wall -Wextra -Werror
-CFLAGS	+=	#-Ofast #-g
+#CFLAGS	+=	-Ofast 
+CFLAGS	+=	-g
 
 #LIBFT
 LIBFT_DIR 	= ./lib/libft 

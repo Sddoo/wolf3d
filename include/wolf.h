@@ -6,7 +6,7 @@
 /*   By: eloren-l <eloren-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/31 17:22:05 by eloren-l          #+#    #+#             */
-/*   Updated: 2019/08/31 18:21:32 by eloren-l         ###   ########.fr       */
+/*   Updated: 2019/08/31 19:56:54 by eloren-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,5 +45,11 @@ typedef struct	s_point
 */
 void			start_event_loop(t_context *context);
 bool			check_for_termination_event(SDL_Event *event);
+
+/*
+** render related functions
+*/
+void			render_square(SDL_Renderer *renderer,
+	t_point *upper_left, t_point *bottom_right, t_color *color);
 
 #endif
