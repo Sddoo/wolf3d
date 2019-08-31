@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   event_loop.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: eloren-l <eloren-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/08/31 12:44:14 by eloren-l          #+#    #+#             */
-/*   Updated: 2019/08/31 18:08:12 by eloren-l         ###   ########.fr       */
+/*   Created: 2019/08/31 18:10:01 by eloren-l          #+#    #+#             */
+/*   Updated: 2019/08/31 18:10:11 by eloren-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,28 +38,7 @@ static void	start_event_loop(t_context *context)
 		{
 			if (check_for_termination_event(event))
 				terminate_program(context);
-			
 		}
 		SDL_Delay(10);
 	}
-}
-
-static void	initialize_context(t_context *context)
-{
-	SDL_Init(SDL_INIT_VIDEO);
-	context->window = SDL_CreateWindow(
-		"SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
-		SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
-	context->renderer = SDL_CreateRenderer(
-		context->window, -1, SDL_RENDERER_ACCELERATED);
-}
-
-int			main(int argc, char **argv)
-{
-	t_context	*context;
-
-	context = (t_context *)malloc(sizeof(context));
-	initialize_context(context);
-	start_event_loop(context);
-	return (0);
 }
